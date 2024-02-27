@@ -2,9 +2,10 @@
   "name": "appbackend",
   "version": "1.0.0",
   "description": "a backend at my veadio app",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon index.js"
   },
   "keywords": [
     "javaascript",
@@ -12,5 +13,8 @@
     "chai"
   ],
   "author": "ganesh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
