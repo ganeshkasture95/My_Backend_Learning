@@ -1,14 +1,14 @@
-
-   (async ()=>{
-
-    try{
+import dotenv from 'dotenv'
+import conectDB from "./db/index.js"
 
 
 
-    }catch(error){
-        console.error("ERROR",error);
-        throw err
-    }
+dotenv.config({
+    path:'./env'
+})
 
-})()
+
+
+conectDB()
+
 
